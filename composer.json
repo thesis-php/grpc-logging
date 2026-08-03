@@ -1,0 +1,41 @@
+{
+    "name": "thesis/grpc-logging",
+    "description": "Thesis Grpc Logging",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "kafkiansky",
+            "email": "vadimzanfir@gmail.com"
+        },
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov.valentin@gmail.com"
+        },
+        {
+            "name": "Thesis Team",
+            "homepage": "https://github.com/orgs/thesis-php/people"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^8.0",
+        "testo/testo": "^0.10.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thesis\\Grpc\\Logging\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thesis\\Grpc\\Logging\\": "tests/"
+        }
+    },
+    "config": {
+        "lock": false,
+        "sort-packages": true
+    }
+}
