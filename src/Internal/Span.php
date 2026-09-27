@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Thesis\Grpc\Logging\Internal;
 
 use Amp\CancelledException;
-use Google\Rpc\Code;
+use Thesis\Google\Rpc\Code;
 use Thesis\Grpc\InvokeError;
 use Thesis\Grpc\Logging\Config;
 use Thesis\Grpc\Logging\Event;

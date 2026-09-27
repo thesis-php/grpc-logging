@@ -6,10 +6,10 @@ namespace Thesis\Grpc\Logging;
 
 use Amp\Cancellation;
 use Amp\NullCancellation;
-use Google\Rpc\Code;
 use Psr\Log\LogLevel;
 use Testo\Assert;
 use Testo\Test;
+use Thesis\Google\Rpc\Code;
 use Thesis\Grpc\Client\Invoke;
 use Thesis\Grpc\ClientStream;
 use Thesis\Grpc\InvokeError;

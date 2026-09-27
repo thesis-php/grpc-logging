@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Thesis\Grpc\Logging;
 
-use Google\Rpc\Code;
 use Psr\Log\LogLevel;
 use Testo\Assert;
 use Testo\Test;
+use Thesis\Google\Rpc\Code;
 
 #[Test]
 final class DefaultLevelsTest

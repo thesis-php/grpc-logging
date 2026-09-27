@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Thesis\Grpc\Logging;
 
-use Google\Rpc\Code;
 use Psr\Log\LogLevel;
+use Thesis\Google\Rpc\Code;
 
 /**
  * @api

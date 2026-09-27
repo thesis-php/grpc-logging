@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Thesis\Grpc\Logging;
 
 use Amp\Cancellation;
-use Google\Rpc\Code;
+use Thesis\Google\Rpc\Code;
 use Thesis\Grpc\Client\Invoke;
 use Thesis\Grpc\Client\StreamInterceptor;
 use Thesis\Grpc\Client\UnaryInterceptor;

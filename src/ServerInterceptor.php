@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Thesis\Grpc\Logging;
 
 use Amp\Cancellation;
-use Google\Rpc\Code;
+use Thesis\Google\Rpc\Code;
 use Thesis\Grpc\Logging\Internal\LoggingServerStream;
 use Thesis\Grpc\Logging\Internal\Recorder;
 use Thesis\Grpc\Metadata;

@@ -6,7 +6,7 @@ namespace Thesis\Grpc\Logging\Internal;
 
 use Amp\Cancellation;
 use Amp\NullCancellation;
-use Google\Rpc\Code;
+use Thesis\Google\Rpc\Code;
 use Thesis\Grpc\ClientStream;
 use Thesis\Grpc\Metadata;
 
